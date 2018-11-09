@@ -4,8 +4,7 @@
  */
 
 function getPageViewHeight() {
-    var d = document, a = d.compatMode == "BackCompat"
-                    ? d.body
-                    : d.documentElement;
-    return a.clientHeight;
+  var d = document,
+    a = (d.compatMode == "BackCompat" ? d.body : d.documentElement);
+  return a.clientHeight;
 }

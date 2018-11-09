@@ -3,7 +3,7 @@
  * @author 未知
  */
 
-function getPageScrollLeft(){
-    var a = document;
-    return a.documentElement.scrollLeft || a.body.scrollLeft;
+function getPageScrollLeft() {
+  var a = document;
+  return a.documentElement.scrollLeft || a.body.scrollLeft;
 }

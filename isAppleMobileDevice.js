@@ -3,6 +3,6 @@
  * @author 未知
  */
 
-function isAppleMobileDevice(){
-    return (/iphone|ipod|ipad|Macintosh/i.test(navigator.userAgent.toLowerCase()));
+function isAppleMobileDevice() {
+  return (/iphone|ipod|ipad|Macintosh/i.test(navigator.userAgent.toLowerCase()));
 }

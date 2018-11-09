@@ -3,9 +3,8 @@
  * @author 未知
  */
 
-function getPageViewWidth(){
-    var d = document, a = d.compatMode == "BackCompat"
-                    ? d.body
-                    : d.documentElement;
-    return a.clientWidth;
+function getPageViewWidth() {
+  var d = document,
+    a = (d.compatMode == "BackCompat" ? d.body : d.documentElement);
+  return a.clientWidth;
 }

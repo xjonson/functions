@@ -4,11 +4,11 @@
  */
 
 function getScrollXY() {
-    return document.body.scrollTop ? {
-        x: document.body.scrollLeft,
-        y: document.body.scrollTop
-    }: {
-        x: document.documentElement.scrollLeft,
-        y: document.documentElement.scrollTop
-    }
+  return document.body.scrollTop ? {
+    x: document.body.scrollLeft,
+    y: document.body.scrollTop
+  } : {
+    x: document.documentElement.scrollLeft,
+    y: document.documentElement.scrollTop
+  }
 }

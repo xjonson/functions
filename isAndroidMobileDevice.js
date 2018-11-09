@@ -3,6 +3,6 @@
  * @author 未知
  */
 
-function isAndroidMobileDevice(){
-    return (/android/i.test(navigator.userAgent.toLowerCase()));
+function isAndroidMobileDevice() {
+  return (/android/i.test(navigator.userAgent.toLowerCase()));
 }
